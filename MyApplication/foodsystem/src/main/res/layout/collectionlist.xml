@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/collection_img"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/rdd" />
+
+    <TextView
+        android:id="@+id/collection_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/collection_img"
+        android:layout_toRightOf="@+id/collection_img"
+        android:textSize="23dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/collection_star"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/three"
+        android:layout_below="@+id/collection_name"
+        android:layout_alignLeft="@+id/collection_name"
+        android:layout_alignStart="@+id/collection_name" />
+
+    <TextView
+        android:id="@+id/collection_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18dp"
+        android:layout_below="@+id/collection_star"
+        android:layout_alignLeft="@+id/collection_star"
+        android:layout_alignStart="@+id/collection_star"
+        />
+
+    <TextView
+        android:id="@+id/collection_dist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/collection_name"
+        android:textSize="18dp"
+        android:text="TextView" />
+</RelativeLayout>

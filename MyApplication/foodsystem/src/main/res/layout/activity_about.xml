@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jmy.foodsystem.user.AboutActivity">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="75dp"
+           android:background="@color/MyThe"
+           android:id="@+id/linearLayout">
+
+           <ImageView
+               android:id="@+id/back_about"
+               android:layout_width="45dp"
+               android:layout_height="45dp"
+               android:layout_marginTop="15dp"
+               android:src="@mipmap/back_100" />
+                <TextView
+                    android:layout_marginTop="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="关于软件"
+                    android:textColor="#fff"
+                    android:textSize="20dp"/>
+
+       </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:text="@string/aboutus"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+</RelativeLayout>

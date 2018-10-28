@@ -1,0 +1,3 @@
+include ':app', ':test', ':adaptertest', ':foodsystem', ':BaiduMapsApiDemo', ':demo', ':aaa'
+include ':androidThreadTest'
+include ':networkTest'

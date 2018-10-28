@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FoodSystem</string>
+    <string name="title_activity_reg">RegActivity</string>
+    <string name="path">d:/connection.txt</string>
+    <string name="aboutus">本软件由萍乡学院信息与计算机工程学院2015级学生江明毅，田维萍，姚宇合作开发
+    。软件主要功能是收集全国各地餐饮相关的商家信息。并且提供购买，评价，售后服务。该软件主要框架基本完成，部分
+    细节以及拓展功能有待开发。如果您有宝贵的意见帮助我们改进软件请联系QQ320838955,衷心感谢您的支持！</string>
+</resources>

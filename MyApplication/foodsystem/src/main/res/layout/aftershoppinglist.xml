@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/aftershoppingimg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/rdd"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/aftershoppingname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/aftershoppingimg"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/aftershoppingimg"
+        android:layout_toRightOf="@+id/aftershoppingimg"
+        android:text="TextView"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/aftershoppingnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBottom="@+id/aftershoppingimg"
+        android:layout_alignLeft="@+id/aftershoppingname"
+        android:layout_alignStart="@+id/aftershoppingname" />
+
+    <TextView
+        android:id="@+id/aftershoppingsum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/aftershoppingnumber"
+        android:layout_alignStart="@+id/aftershoppingnumber"
+        android:layout_below="@+id/aftershoppingnumber"
+        android:layout_marginTop="16dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已退款"
+        android:textSize="15dp"
+        android:textColor="@color/green"
+        android:layout_alignBaseline="@+id/aftershoppingname"
+        android:layout_alignBottom="@+id/aftershoppingname"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+</RelativeLayout>
